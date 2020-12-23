@@ -1,0 +1,43 @@
+.grid {
+  border: 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+  height: 360px;
+  width: 360px;
+}
+
+.grid div {
+  height: 40px;
+  width: 40px;
+}
+
+.ending-block {
+  background-color: red;
+}
+
+.starting-block {
+  background-color: blue;
+}
+
+.l1, .l2, .l3, .l4, .l5{
+  background-color: lightblue;
+}
+
+.l1, .l2, .l3 {
+    background-image: url(Log.png);
+    background-size: cover;
+}
+
+.c1, .c2, .c3 {
+  background-color: grey;
+}
+
+.c1 {
+  background-image: url(Car.png);
+    background-size: cover;
+}
+
+.frog{
+    background-image: url(Frog.png);
+    background-size: cover;
+}
